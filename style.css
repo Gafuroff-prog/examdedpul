@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    font-family: Arial;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 267px;
+    line-height: 307.02px;
+    text-align: center;
+    color: #00BFFF;
+}
+
+    .titleSite{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 267px;
+    line-height: 307.02px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: black;
+    }
+    body {
+        background-color: #2A2A2A;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+    
+    .container {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .title {
+        margin: 30px 0;
+    }
+    
+    .controls {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .controls input, .controls select, .controls button {
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .controls button {
+        background-color: #198754;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .movie-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .card {
+        width: 250px;
+        height: 350px;
+        background-color: yellow;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+    }
+    

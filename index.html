@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" />
+
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="titleSite"><span>M</span>OVIES<span>!</span></h1>
+        
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Enter your movie name">
+            <select id="filterGenre">
+                <option value="">All</option>
+                <option value="uncategorized">Uncategorized</option>
+                <option value="documentary music">Documentary Music</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+            </select>
+            <select id="sortBy">
+                <option value="">Sort</option>
+                <option value="alphabeticalAsc"> (A-Z)</option>
+                <option value="alphabeticalDesc"> (Z-A)</option>
+                <option value="ratingAsc">Rating (Low to High)</option>
+                <option value="ratingDesc">Rating (High to Low)</option>
+            </select>
+            
+            <button id="searchButton">Search</button>
+
+        </div>
+        <div id="movieContainer" class="movie_lists"></div>
+        </div>
+
+        <!-- <div class="card">
+            <h3>${movie.name}</h3>
+            <img src="${movie.img}" alt="${movie.name}">
+            <p>Genre: ${movie.category}</p>
+            <p>Rating: ${movie.rating}</p>
+         </div> -->
+         
+    </main>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="movies.js"></script>
+</body>
+</html>
